@@ -23,24 +23,24 @@ public class JpaMain {
             /*
                Insert(삽입)
              */
-//            Member member = new Member();
-//            member.setId(2L);
-//            member.setName("helloB");
-//            em.persist(member);
+            // Member member = new Member();
+            // member.setId(2L);
+            // member.setName("helloB");
+            // em.persist(member);
 
             /*
                 Read(읽기)
              */
-//            Member findMember = em.find(Member.class, 1L);
-//            System.out.println("아이디 = " + findMember.getId());
-//            System.out.println("이름 = " + findMember.getName());
+            // Member findMember = em.find(Member.class, 1L);
+            // System.out.println("아이디 = " + findMember.getId());
+            // System.out.println("이름 = " + findMember.getName());
 
             /*
                 Update(수정)
              */
             Member findMember = em.find(Member.class, 1L);  // Jpa로 불러온 데이터는 Jpa에서 관리된다.
             findMember.setName("HelloJ");   // 그래서, Jpa에서 불러온 데이터 객체에 변화가 생긴다면 자동으로 업데이트를 해준다.
-//          em.persist(member);     즉, 이 명령이 없어도 된다.
+            // em.persist(member);     즉, 이 명령이 없어도 된다.
 
             transaction.commit();
         } catch (Exception e) {
