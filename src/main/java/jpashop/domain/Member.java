@@ -6,8 +6,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Member {
-    @Id @GeneratedValue
+public class Member extends BaseEntity {
+    @Id
+    @GeneratedValue
     @Column(name = "MEMBER_ID")
     private Long id;
     private String name;
