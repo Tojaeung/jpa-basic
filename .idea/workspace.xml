@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5cb53f6-0924-4848-8263-00b1cf3697e5" name="Changes" comment="상속관계 매핑">
+    <list default="true" id="d5cb53f6-0924-4848-8263-00b1cf3697e5" name="Changes" comment="연관관계 관리">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpashop/domain/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpashop/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpashop/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpashop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpashop/domain/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpashop/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpashop/domain/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpashop/domain/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,8 @@
       <workItem from="1660530495760" duration="1335000" />
       <workItem from="1660660648532" duration="41000" />
       <workItem from="1660660697408" duration="5268000" />
-      <workItem from="1660697254207" duration="8408000" />
+      <workItem from="1660697254207" duration="8453000" />
+      <workItem from="1660796370155" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="기본매핑 수정">
       <created>1660663315457</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660703506818</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="연관관계 관리">
+      <created>1660706884668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660706884668</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -202,7 +209,8 @@
     <MESSAGE value="연관관계 매핑" />
     <MESSAGE value="다양한 연관관계 매핑" />
     <MESSAGE value="상속관계 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속관계 매핑" />
+    <MESSAGE value="연관관계 관리" />
+    <option name="LAST_COMMIT_MESSAGE" value="연관관계 관리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
